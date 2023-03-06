@@ -21,10 +21,13 @@ html {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-size: 1.6rem;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 /* Posicionamiento
@@ -47,15 +50,19 @@ Otros */
     text-align: center;
 }
 
+<<<<<<< HEAD
 figure {
     justify-self: center;
 }
 
+=======
+>>>>>>> emailsend
 .logo {
     width: 15rem;
     margin-bottom: 4.8rem;
 }
 
+<<<<<<< HEAD
 .title {
     font-size: var(--lg);
     margin-bottom: 1.2rem;
@@ -104,4 +111,20 @@ figure {
 
 .login-button {
     margin: 1.4rem auto 3rem auto;
+=======
+figure {
+    justify-self: center;
+}
+
+.title {
+    font-size: var(--lg);
+    margin-bottom: 1.2rem;
+}
+
+.subtitle {
+    font-size: var(--md);
+    font-weight: 300;
+    margin-bottom: 3.2rem;
+    color: var(--Verylight-pink);
+>>>>>>> emailsend
 }
