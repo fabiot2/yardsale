@@ -50,6 +50,11 @@ Otros */
     text-align: center;
 }
 
+.logo {
+    width: 15rem;
+    margin-bottom: 4.8rem;
+}
+
 figure {
     justify-self: center;
 }
