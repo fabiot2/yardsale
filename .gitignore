@@ -1,0 +1,9 @@
+# Folders
+/assets/media/
+
+# Extensions
+
+*.img
+*.jpg
+*.ico
+*.svg
