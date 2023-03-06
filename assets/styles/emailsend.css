@@ -1,0 +1,39 @@
+.primary-button {
+    width: 90%;
+    height: 5rem ;
+    background-color: var(--HospitalGreen);
+    color: var(--White);
+    border-radius: 0.8rem;
+    font-size: var(--md);
+    font-weight: 500;
+    border: none;
+    cursor:pointer;
+    margin: 1.4rem auto 3rem auto;
+}
+
+.email-image {
+    width: 13.2rem;
+    height: 13.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--Text-input-field);
+    margin-bottom: 2.4rem;
+}
+
+.email-image img {
+    width: 8rem;
+}
+
+.resend {
+    font-size: var(--sm);
+}
+
+.resend span {
+    color: var(--Verylight-pink);
+}
+
+.resend a {
+    color: var(--HospitalGreen);
+}
