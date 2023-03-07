@@ -74,8 +74,15 @@ figure {
 
 .label {
     font-size: var(--sm);
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 0.4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    position: relative;
 }
 
 .input {
@@ -88,10 +95,12 @@ figure {
     border-radius: 0.8rem;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    text-align: left;   
+form .input:first-of-type {
+    margin-bottom: 2.2rem;
+}
+
+.forgot-password {
+    margin-bottom: 5.2rem;
 }
 
 .button {
@@ -110,3 +119,13 @@ figure {
     color: var(--White);
 }
 
+.secundary-button {
+    display: block;
+    width: 270px;
+    margin: 0 1.35rem;
+    position: absolute;
+    bottom: 2rem;
+    color: var(--HospitalGreen);
+    background-color: var(--White);
+    border: 0.1rem solid var(--HospitalGreen);
+}

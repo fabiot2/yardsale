@@ -1,3 +1,8 @@
 .logo {
     display: none;
 }
+
+.secundary-button {
+    display: block;
+    position: relative;
+}
