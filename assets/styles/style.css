@@ -72,17 +72,6 @@ figure {
     color: var(--Verylight-pink);
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    text-align: left;   
-}
-
-.form-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .label {
     font-size: var(--sm);
     font-weight: 500;
@@ -99,19 +88,25 @@ figure {
     border-radius: 0.8rem;
 }
 
-.primary-button {
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+}
+
+.button {
     width: 90%;
     height: 5rem ;
-    background-color: var(--HospitalGreen);
-    color: var(--White);
     border-radius: 0.8rem;
     font-size: var(--md);
     font-weight: 500;
     border: none;
     cursor:pointer;
+    margin: 1.4rem auto 3rem auto;
 }
 
-.login-button {
-    margin: 1.4rem auto 3rem auto;
+.primary-button {
+    background-color: var(--HospitalGreen);
+    color: var(--White);
 }
 
