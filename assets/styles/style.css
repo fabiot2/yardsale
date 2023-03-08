@@ -47,6 +47,7 @@ Otros */
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 90%;
+    min-width: 28rem;
     max-width: 30rem;
     text-align: center;
     align-items: center;
