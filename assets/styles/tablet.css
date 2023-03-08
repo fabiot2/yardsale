@@ -6,3 +6,7 @@
     display: block;
     position: relative;
 }
+
+.form-container {
+    height: auto;
+}
