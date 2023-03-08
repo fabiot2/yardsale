@@ -51,6 +51,7 @@ Otros */
     max-width: 30rem;
     text-align: center;
     align-items: center;
+    height: auto;
 }
 
 figure {
@@ -77,12 +78,10 @@ figure {
 .label {
     font-size: var(--sm);
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    margin-top: 1.2rem;
 }
 
-.form-container {
-    height: auto;
-}
+
 
 .form {
     display: flex;

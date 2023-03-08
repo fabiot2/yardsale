@@ -7,3 +7,13 @@
     text-align: start;
     margin-bottom: 3.2rem;
 }
+
+.value  {    
+    height: 3.2rem;
+    margin: 0.8rem 0 3.2rem 0;
+    padding: 0.6rem;
+    font-size: var(--md);
+    color: var(--Verylight-pink);
+    background-color: var(--Text-input-field);
+    border-radius: 0.8rem;
+}
