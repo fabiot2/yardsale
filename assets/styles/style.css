@@ -46,7 +46,8 @@ Otros */
 .form-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    width: 30rem;
+    width: 90%;
+    max-width: 30rem;
     text-align: center;
     align-items: center;
 }
@@ -115,7 +116,7 @@ form .input:first-of-type {
 }
 
 .button {
-    width: 90%;
+    width: 100%;
     height: 5rem ;
     border-radius: 0.8rem;
     font-size: var(--md);
@@ -131,11 +132,7 @@ form .input:first-of-type {
 }
 
 .secundary-button {
-    display: block;
-    width: 270px;
-    margin: 0 1.35rem;
-    position: absolute;
-    bottom: 2rem;
+    margin: 0;
     color: var(--HospitalGreen);
     background-color: var(--White);
     border: 0.1rem solid var(--HospitalGreen);
