@@ -1,0 +1,61 @@
+:root {
+    --HospitalGreen: #ACD9B2;
+    --White: #ffffff;
+    --Black: #000000;
+    --Text-input-field: 
+    #f7f7f7;
+    --Verylight-pink: #C7C7C7;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.desktop-menu {
+    width:12rem;
+    height: auto;
+    padding: 2rem 2rem 0 2rem;
+    border: 0.1rem solid var(--Verylight-pink);
+    border-radius: 0 0 0.6rem 0.6rem;
+}
+
+.desktop-menu ul li {
+    text-align: end;
+    list-style: none;
+    font-weight: bold;
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li:last-child {
+    padding-top: 2rem;
+    border-top: 0.1rem solid var(--Verylight-pink);
+    font-weight: normal;
+}
+
+.desktop-menu ul li:last-child a {
+    color: var(--HospitalGreen);
+    font-size: var(--sm);
+}
+
+.desktop-menu ul li a {
+    display: block;
+    color: var(--Black);margin-bottom: 2rem;
+}
