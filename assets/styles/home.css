@@ -35,3 +35,37 @@ Box Model
 Tipografía
 Visuales
 Otros */
+
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24rem);
+}
+
+.product-card {
+    width: 24rem;
+}
+
+.product-card img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info figure {
+
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.product-info figure img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
