@@ -1,0 +1,14 @@
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24rem);
+    gap: 1.2rem;
+}
+
+.product-card {
+    width: 14rem;
+}
+
+.product-card img {
+    width: 14rem;
+    height: 14rem;
+}
