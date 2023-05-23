@@ -17,3 +17,7 @@
     background-color: var(--Text-input-field);
     border-radius: 0.8rem;
 }
+
+.secundary-button {
+    margin-bottom: 3rem;
+}
