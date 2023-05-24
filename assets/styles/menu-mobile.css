@@ -45,6 +45,11 @@ a {
     border-bottom: 0.1rem solid var(--Verylight-pink);
 }
 
+.mobile-menu ul:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+}
+
 .mobile-menu ul li {
     margin-bottom: 2.4rem;
 }
@@ -56,4 +61,5 @@ a {
 
 .mobile-menu .sign-out__button {
     color: var(--HospitalGreen);
+    font-size: var(--sm);
 }
