@@ -33,6 +33,8 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 0 2.4rem;
+    border-bottom: 0.1rem solid var(--Verylight-pink);
 }
 
 .menu   {
@@ -57,6 +59,7 @@ nav {
     /* margin-top: 1.2rem; */
     display: flex;
     align-items: center;
+    height: 6rem;
 }
 
 .navbar-left ul li a,
@@ -70,5 +73,35 @@ nav {
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
     color: var(--HospitalGreen);
-    border: 0.1rem solid var(--HospitalGreen);;
+    border: 0.1rem solid var(--HospitalGreen);
+}
+
+.navbar-right .navbar-email {
+    color: var(--Verylight-pink);
+    font-size: var(--sm);
+    margin-right: 1.2rem;
+}
+
+.navbar-right .navbar-shopping-cart {
+    position: relative;
+}
+
+.navbar-right .navbar-shopping-cart a {
+    padding: 0;
+}
+
+.navbar-right .navbar-shopping-cart a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -0.6rem;
+    right: -0.3rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: var(--HospitalGreen);
+    color: var(--Black);
+    border-radius: 50%;
+    font-size: var(--sm);
+    font-weight: bold;
 }
