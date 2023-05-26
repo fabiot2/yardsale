@@ -28,3 +28,47 @@ body {
 a {
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu   {
+    display: none;
+}
+
+.logo   {
+    width: 10rem;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left ul {
+    margin-left: 1.2rem;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
+    /* margin-top: 1.2rem; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul li a,
+.navbar-right ul li a {
+    color: var(--Verylight-pink);
+    border: 0.1rem solid var(--white);
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+    color: var(--HospitalGreen);
+    border: 0.1rem solid var(--HospitalGreen);;
+}
